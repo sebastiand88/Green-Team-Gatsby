@@ -1,3 +1,18 @@
+/* General Styles */
+.topLine {
+  font-size: 1rem;
+  padding-left: 3rem;
+  padding-top: 5rem;
+  margin-bottom: 0.75rem;
+}
+
+.bottomLine {
+  text-align: start;
+  font-size: clamp(1.5rem, 5vw, 2rem);
+  margin-bottom: 3rem;
+  padding: 0 3rem;
+}
+
 /* Hero Section */
 .heroContainer {
   display: flex;
@@ -77,21 +92,6 @@
 }
 
 /* Energy */
-
-.topLine {
-  font-size: 1rem;
-  padding-left: 3rem;
-  padding-top: 5rem;
-  margin-bottom: 0.75rem;
-}
-
-.bottomLine {
-  text-align: start;
-  font-size: clamp(1.5rem, 5vw, 2rem);
-  margin-bottom: 3rem;
-  padding: 0 3rem;
-}
-
 .energyRow {
   margin: 7rem 0;
 }
@@ -110,4 +110,38 @@
 
 .energyDesc {
   text-align: center;
+}
+
+/* Products */
+.productsContainer {
+  margin-left: 22px;
+}
+
+.productsRow {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.5) 0%,
+      rgba(0, 0, 0, 0.5) 35%,
+      rgba(0, 0, 0, 0.1) 100%
+    ),
+    url(../assets/images/plans.jpg) no-repeat center;
+  background-size: cover;
+  border-radius: 55px;
+}
+
+.productsCard {
+  margin: 0 auto;
+  float: none;
+  margin-bottom: 5rem;
+}
+
+.productsCardTitle {
+  text-align: center;
+  color: #228b22;
+}
+
+.productsCardText {
+  color: #0c0c0c;
 }
