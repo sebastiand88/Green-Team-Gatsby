@@ -154,3 +154,8 @@
   );
   border-radius: 25px;
 }
+
+.feedbackForm {
+  margin: 0 auto;
+  max-width: 900px;
+}

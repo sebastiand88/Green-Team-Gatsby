@@ -524,8 +524,9 @@ export default function About() {
           </div>
         </div>
 
+        <p className={styles.bottomLine}>Send Us Your Feedback</p>
         <div>
-          <Form style={{ padding: "50px" }}>
+          <Form className={styles.feedbackForm} style={{ padding: "20px" }}>
             <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
               <Form.Label>Your Email Address</Form.Label>
               <Form.Control
