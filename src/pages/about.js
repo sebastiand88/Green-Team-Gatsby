@@ -64,8 +64,7 @@ export default function About() {
           </Carousel.Item>
         </Carousel>
 
-        <h1 className={styles.heroTitle}>What We Do</h1>
-        <p className={styles.heroDesc}>What We Do</p>
+        <p className={styles.bottomLine}>What We Do</p>
         <Tabs defaultActiveKey="renewables" id="" className="mb-3">
           <Tab
             eventKey="renewables"
@@ -292,11 +291,11 @@ export default function About() {
               allowfullscreen
             ></iframe>
             <h5>Source: National Geographic YouTube Channel</h5>
-            <h1 className={styles.heroTitle}>Our Future Responsability</h1>
-            <p className={styles.heroDesc}>Our Future Responsability</p>
+
+            <p className={styles.bottomLine}>Our Future Responsability</p>
             <Container>
               <Accordion defaultActiveKey="0">
-                <Accordion.Item eventKey="1">
+                <Accordion.Item eventKey="0">
                   <Accordion.Header>
                     <h5 className={styles.futureTitle}>Electric Transport</h5>
                   </Accordion.Header>
@@ -338,7 +337,7 @@ export default function About() {
                   </Accordion.Body>
                 </Accordion.Item>
 
-                <Accordion.Item eventKey="0">
+                <Accordion.Item eventKey="1">
                   <Accordion.Header>
                     <h5 className={styles.futureTitle}>
                       Environmentally Friendly Homes

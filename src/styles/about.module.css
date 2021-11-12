@@ -9,7 +9,7 @@
 .bottomLine {
   text-align: start;
   font-size: clamp(1.5rem, 5vw, 2rem);
-  margin-bottom: 3rem;
+  margin: 5rem 0;
   padding: 0 3rem;
 }
 
