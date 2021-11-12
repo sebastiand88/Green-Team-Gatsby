@@ -39,7 +39,7 @@ export default function Home() {
           <p className={styles.heroDesc}>Renewable energy provider</p>
           <Button
             className={styles.heroBtn}
-            to="/about"
+            href="/about"
             variant="outline-success"
             size="lg"
           >

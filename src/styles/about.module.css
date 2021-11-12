@@ -1,0 +1,156 @@
+/* General Styles */
+.topLine {
+  font-size: 1rem;
+  padding-left: 3rem;
+  padding-top: 5rem;
+  margin-bottom: 0.75rem;
+}
+
+.bottomLine {
+  text-align: start;
+  font-size: clamp(1.5rem, 5vw, 2rem);
+  margin-bottom: 3rem;
+  padding: 0 3rem;
+}
+
+/* Carousel */
+.aboutContainer {
+  background: #0c0c0c;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.carouselImg {
+  width: 100%;
+  height: 100vh !important;
+  object-fit: cover !important;
+}
+
+.carouselDesc {
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.8) 0%,
+      rgba(0, 0, 0, 0.4) 100%
+    ),
+    linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, transparent 100%);
+  color: #228b22;
+  font-size: 18px;
+  border-radius: 25px;
+  padding: 25px;
+}
+
+/* Tabs */
+.aboutTab {
+  color: #228b22;
+}
+
+.aboutTabTitle {
+  margin: 4rem 0;
+  font-size: clamp(1.5rem, 5vw, 2rem);
+  font-weight: bold;
+}
+
+.restoreRow {
+  margin-right: 0px;
+}
+
+.restoreCol {
+  margin: 3rem 0;
+}
+
+.restoreIcon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  justify-content: center;
+  text-align: center;
+}
+
+.restoreImg {
+  max-width: 300px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 55px;
+}
+
+.restoreTitle {
+  margin: 1rem 0;
+  font-size: 1.5rem;
+  font-style: italic;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.restoreDesc {
+  font-style: italic;
+  max-width: 300px;
+}
+
+.futureTitle {
+  color: #228b22;
+}
+
+.futureDesc {
+  color: #0c0c0c;
+}
+
+.aboutQuote {
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.5) 0%,
+      rgba(0, 0, 0, 0.5) 35%,
+      rgba(0, 0, 0, 0.1) 100%
+    ),
+    url(../assets/images/future.jpg) no-repeat center;
+  background-size: cover;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  height: 550px;
+  width: 100%;
+  padding: 5rem calc((100vw - 1300px) / 2);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @media screen and (max-width: 1440px) {
+    margin-top: -700px;
+  }
+
+  @media screen and (max-width: 1224px) {
+    margin-top: -500px;
+  }
+
+  @media screen and (max-width: 870px) {
+    margin-top: -300px;
+  }
+
+  @media screen and (max-width: 515px) {
+    margin-top: -200px;
+  }
+}
+
+.aboutQuoteContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.aboutQuoteDesc {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: clamp(0.7rem, 4vw, 2rem);
+  font-style: italic;
+  padding: 0 1rem;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.5) 25%,
+    rgba(0, 0, 0, 0.5) 75%,
+    rgba(0, 0, 0, 0.1) 100%
+  );
+  border-radius: 25px;
+}
