@@ -277,6 +277,38 @@ export default function Home() {
           </Col>
         </Row>
       </Container>
+
+      {/* News */}
+      <div className={styles.newsContainer}>
+        <div className={styles.newsContent}>
+          <h1 className={styles.newsHeader}>Get Access to Exclusive News</h1>
+          <p className={styles.newsDesc}>
+            Sign up for our newsletter to get the latest information about our
+            efforts to Net Zero
+          </p>
+          <form action="#" className={styles.newsForm}>
+            <Container>
+              <label htmlFor="email">
+                <input
+                  className={styles.newsInput}
+                  type="email"
+                  placeholder="Enter your email..."
+                  id="email"
+                />
+              </label>
+              <Button
+                className={styles.newsButton}
+                size="lg"
+                type="submit"
+                value="Submit"
+                variant="success"
+              >
+                Subscribe
+              </Button>
+            </Container>
+          </form>
+        </div>
+      </div>
     </Layout>
   )
 }
