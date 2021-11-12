@@ -145,3 +145,48 @@
 .productsCardText {
   color: #0c0c0c;
 }
+
+/* Testimonials */
+.testimonialCol {
+  padding: 2rem;
+}
+
+.testimonial {
+  height: 100%;
+  width: 100%;
+  padding: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.5) 0%,
+      rgba(0, 0, 0, 0.5) 75%,
+      rgba(0, 0, 0, 0.1) 100%
+    ),
+    url(../assets/images/testimonial.jpg) no-repeat center;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.testimonialImg {
+  border-radius: 55px;
+}
+
+.testimonialIcon {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.testimonialName {
+  font-size: 24px;
+  margin-bottom: 0.5rem;
+  background: #0c0c0c;
+  color: #228b22;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.testimonialDesc {
+  font-style: italic;
+}

@@ -1,10 +1,21 @@
 import React from "react"
 import Layout from "../components/Layout"
 import * as styles from "../styles/home.module.css"
-import { Button, Container, Row, Col, Card, ListGroup } from "react-bootstrap"
+import {
+  Button,
+  Container,
+  Row,
+  Col,
+  Card,
+  ListGroup,
+  Image,
+} from "react-bootstrap"
 import heroVideo from "../assets/videos/heroVideo.mp4"
 import { GiSolarPower, GiWindTurbine } from "react-icons/gi"
 import { BiWater } from "react-icons/bi"
+import { AiFillCar } from "react-icons/ai"
+import { ImOffice } from "react-icons/im"
+import { BsHouseFill } from "react-icons/bs"
 
 export default function Home() {
   return (
@@ -190,6 +201,82 @@ export default function Home() {
           </Col>
         </Row>
       </div>
+
+      {/* Testimonials */}
+      <h1 className={styles.topLine}>Testimonials</h1>
+      <h1 className={styles.bottomLine}>Our Customer Feedback</h1>
+      <Container>
+        <Row>
+          <Col md={12} lg={4} className={styles.testimonialCol}>
+            <div className={styles.testimonial}>
+              <Image
+                className={styles.testimonialImg}
+                src="https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2070&q=80"
+                fluid
+                alt=""
+              />
+              <div className={styles.testimonialIcon}>
+                <AiFillCar size={72} />
+              </div>
+              <h3 className={styles.testimonialName}>Sarah Anderson</h3>
+              <p className={styles.testimonialDesc}>
+                Maecenas laoreet semper justo sed tristique. Phasellus lorem
+                sem, tincidunt tempor ipsum ut, tempus pulvinar tortor. Vivamus
+                mattis risus eget lobortis ullamcorper. Aliquam erat volutpat.
+                Aenean nunc risus, posuere in consectetur et, laoreet a turpis.
+                Sed egestas, quam et sodales suscipit, sem neque tempus neque,
+                eget posuere odio orci id nulla.
+              </p>
+            </div>
+          </Col>
+
+          <Col md={12} lg={4} className={styles.testimonialCol}>
+            <div className={styles.testimonial}>
+              <Image
+                className={styles.testimonialImg}
+                src="https://images.unsplash.com/photo-1589386417686-0d34b5903d23?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2070&q=80"
+                fluid
+                alt=""
+              />
+              <div className={styles.testimonialIcon}>
+                <ImOffice size={72} />
+              </div>
+              <h3 className={styles.testimonialName}>John Wilson</h3>
+              <p className={styles.testimonialDesc}>
+                Maecenas laoreet semper justo sed tristique. Phasellus lorem
+                sem, tincidunt tempor ipsum ut, tempus pulvinar tortor. Vivamus
+                mattis risus eget lobortis ullamcorper. Aliquam erat volutpat.
+                Aenean nunc risus, posuere in consectetur et, laoreet a turpis.
+                Sed egestas, quam et sodales suscipit, sem neque tempus neque,
+                eget posuere odio orci id nulla.
+              </p>
+            </div>
+          </Col>
+
+          <Col md={12} lg={4} className={styles.testimonialCol}>
+            <div className={styles.testimonial}>
+              <Image
+                className={styles.testimonialImg}
+                src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2048&q=80"
+                fluid
+                alt=""
+              />
+              <div className={styles.testimonialIcon}>
+                <BsHouseFill size={72} />
+              </div>
+              <h3 className={styles.testimonialName}>Andy Smith</h3>
+              <p className={styles.testimonialDesc}>
+                Maecenas laoreet semper justo sed tristique. Phasellus lorem
+                sem, tincidunt tempor ipsum ut, tempus pulvinar tortor. Vivamus
+                mattis risus eget lobortis ullamcorper. Aliquam erat volutpat.
+                Aenean nunc risus, posuere in consectetur et, laoreet a turpis.
+                Sed egestas, quam et sodales suscipit, sem neque tempus neque,
+                eget posuere odio orci id nulla.
+              </p>
+            </div>
+          </Col>
+        </Row>
+      </Container>
     </Layout>
   )
 }
