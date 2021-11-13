@@ -420,36 +420,6 @@ export default function About() {
 
                       <Col xs={12} lg={6}>
                         <br />
-                        <h5 className={styles.futureTitle}>
-                          Multiple Cropping
-                        </h5>
-                        <br />
-                        <hr />
-                        <p className={styles.futureDesc}>
-                          In agriculture, multiple cropping or multicropping is
-                          the practice of growing two or more crops in the same
-                          piece of land during one growing season instead of
-                          just one crop. When multiple crops are grown
-                          simultaneously, this is also known as intercropping.
-                          This cropping system helps farmers to double their
-                          crop productivity and income.But, the selection of two
-                          or more crops for practicing multicropping mainly
-                          depends on the mutual benefit of the selected crops.
-                          Threshing can be difficult in multiple cropping
-                          systems where crops are harvested together. It can
-                          take the form of double-cropping, in which a second
-                          crop is planted after the first has been harvested. In
-                          the Garhwal Himalaya of India, a practice called
-                          baranaja involves sowing 12 or more crops on the same
-                          plot, including various types of beans, grains, and
-                          millets, and harvesting them at different times.
-                        </p>
-                        <br /> <br />
-                        <hr />
-                      </Col>
-
-                      <Col xs={12} lg={6}>
-                        <br />
                         <h5 className={styles.futureTitle}>Mixed Farming</h5>
                         <br />
                         <hr />
@@ -473,35 +443,6 @@ export default function About() {
                           as bullocks to haul the cart and the plough.
                         </p>
                         <br /> <br />
-                        <hr />
-                      </Col>
-
-                      <Col xs={12} lg={6}>
-                        <br />
-                        <h5 className={styles.futureTitle}>Agroforestry</h5>
-                        <br />
-                        <hr />
-                        <p className={styles.futureDesc}>
-                          Agroforestry is a land use management system in which
-                          trees or shrubs are grown around or among crops or
-                          pastureland. This diversification of the farming
-                          system initiates an agroecological succession, like
-                          that in natural ecosystems, and so starts a chain of
-                          events that enhance the functionality and
-                          sustainability of the farming system. Trees also
-                          produce a wide range of useful and marketable products
-                          from fruits/nuts, medicines, wood products, etc. This
-                          intentional combination of agriculture and forestry
-                          has multiple benefits, such as greatly enhanced yields
-                          from staple food crops, enhanced farmer livelihoods
-                          from income generation, increased biodiversity,
-                          improved soil structure and health, reduced erosion,
-                          and carbon sequestration. Agroforestry practices are
-                          highly beneficial in the tropics, especially in
-                          subsistence smallholdings in sub-Saharan Africa and
-                          have been found to be beneficial in Europe and the
-                          United States.
-                        </p>
                         <hr />
                       </Col>
                     </Row>

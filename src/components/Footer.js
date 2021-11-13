@@ -59,16 +59,16 @@ export default function Footer() {
             <div className="footerLinks">
               <h2 className="footerLinkTitle">Social Media</h2>
               <Link className="footerLink" to="/">
-                <FaTwitter style={{ color: "#228b22" }} /> Twitter
+                <FaTwitter /> Twitter
               </Link>
               <Link className="footerLink" to="/">
-                <FaInstagram style={{ color: "#228b22" }} /> Instagram
+                <FaInstagram /> Instagram
               </Link>
               <Link className="footerLink" to="/">
-                <FaFacebookF style={{ color: "#228b22" }} /> Facebook
+                <FaFacebookF /> Facebook
               </Link>
               <Link className="footerLink" to="/">
-                <FaLinkedinIn style={{ color: "#228b22" }} />
+                <FaLinkedinIn />
                 LinkedIn
               </Link>
             </div>
